@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="위치" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 450 450" style="enable-background:new 0 0 450 450;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5D5D5D;stroke:#5D5D5D;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#5D5D5D;stroke-width:14;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#5D5D5D;stroke-width:20;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="159.9" cy="163.9" r="20"/>
+<circle class="st0" cx="294.1" cy="164" r="20"/>
+<path class="st1" d="M406.4,210.4v132.1c0,26.9-21.8,48.6-48.6,48.6H93.6c-26.9,0-48.6-21.8-48.6-48.6V206"/>
+<path class="st1" d="M358.3,237.9h-263c-30.8,0-55.8-25-55.8-55.8v-32c0-15.4,12.5-27.8,27.8-27.8h318.9c15.4,0,27.8,12.5,27.8,27.8
+	v32C414.1,213,389.1,237.9,358.3,237.9z"/>
+<path class="st2" d="M159.9,163.9c0,0-6.7-99,65.1-99c0,0,72.7-5.6,72.7,99.2"/>
+</svg>
