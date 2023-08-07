@@ -27,8 +27,8 @@ function App() {
      <React.StrictMode>
         <HashRouter>
             <Routes>
-              <Route path="/" element={<Main/>} /> 
-              <Route path="/avatar" element={<Avatar/>} /> 
+              <Route path="/" element={<Avatar/>} /> 
+              {/* <Route path="/avatar" element={<Avatar/>} />  */}
             </Routes>
         </HashRouter>
       </React.StrictMode>

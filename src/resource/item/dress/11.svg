@@ -3,27 +3,28 @@
 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 1080 1013.3" style="enable-background:new 0 0 1080 1013.3;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFC82C;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFC82C;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
+<path class="st0" d="M376.6,841.4l-4.1,29.4c0,0,188.3,16.6,336.5-1.2c-1.7-12.9-5.7-31.4-5.7-31.4L376.6,841.4z"/>
 <g id="상의">
 	<g id="캣티셔츠">
 		<g id="기본티셔츠_00000148647653280736379510000015838623805830912703_">
-			<path class="st0" d="M710.1,917.7l-10.5-141.4c0,0,57.4-34.4,60.4-44.4c3-10.1-11.3-27.3-26.7-49.8s-31.1-24.9-31.1-24.9
+			<path class="st1" d="M710.1,849.7l-10.5-73.4c0,0,57.4-34.4,60.4-44.4c3-10.1-11.3-27.3-26.7-49.8s-31.1-24.9-31.1-24.9
 				s-83.3,20.4-119.4,19c-0.5,0-0.8,0.4-0.8,0.8c0.2,4.7-5.6,35.5-40,35c-34.6-0.5-43.2-30.7-43.6-35.1c0-0.4-0.4-0.7-0.8-0.7
-				c-36.1,1.4-119.5-19-119.5-19s-15.7,2.4-31.1,24.9s-29.6,39.7-26.7,49.8c3,10.1,60.4,44.4,60.4,44.4l-10.4,141.2
-				c-0.1,0.9,0.6,1.7,1.5,1.9c19.7,3.3,187,17.4,337.3,0.2C709.8,919.5,710.2,918.5,710.1,917.7z"/>
-			<line class="st1" x1="381.5" y1="776.3" x2="383.6" y2="754.1"/>
-			<line class="st1" x1="698.5" y1="776.3" x2="696" y2="754.1"/>
+				c-36.1,1.4-119.5-19-119.5-19s-15.7,2.4-31.1,24.9s-29.6,39.7-26.7,49.8c3,10.1,60.4,44.4,60.4,44.4l-10.4,72.2
+				c-0.1,0.9,0.6,1.7,1.5,1.9c19.7,3.3,187.2,9.3,337.3,1.2C709.8,851.5,710.2,850.5,710.1,849.7z"/>
+			<line class="st2" x1="380.5" y1="776.3" x2="383.6" y2="754.1"/>
+			<line class="st2" x1="699.5" y1="776.3" x2="696" y2="754.1"/>
 		</g>
-		<path class="st2" d="M480.7,676.2c0,0-0.2,48.3,59.4,50.1s59.5-50.1,59.5-50.1l-18.8,0.8c0,0-5.1,30.5-40.7,30.5
-			s-37.6-31.4-37.6-31.4h-21.8V676.2z"/>
+		<path class="st0" d="M480.7,676.2c0,0-0.2,48.3,59.4,50.1s59.5-50.1,59.5-50.1l-18.8,0.8c0,0-5.1,30.5-40.7,30.5
+			s-37.6-31.4-37.6-31.4h-21.8L480.7,676.2L480.7,676.2z"/>
 		<g>
-			<path class="st1" d="M517.9,799.9c0,0,3.7-25.8,29.8-25.8v25.8"/>
-			<line class="st1" x1="533.2" y1="790.5" x2="538.4" y2="790.5"/>
-			<path class="st1" d="M576.2,774.2H514c0,0-12.8-0.3-12.8,13c0,0-2.2,12.8,16.6,12.8"/>
-			<line class="st1" x1="563.4" y1="800" x2="563.4" y2="774.3"/>
+			<path class="st2" d="M517.9,799.9c0,0,3.7-25.8,29.8-25.8v25.8"/>
+			<line class="st2" x1="533.2" y1="790.5" x2="538.4" y2="790.5"/>
+			<path class="st2" d="M576.2,774.2H514c0,0-12.8-0.3-12.8,13c0,0-2.2,12.8,16.6,12.8"/>
+			<line class="st2" x1="563.4" y1="800" x2="563.4" y2="774.3"/>
 		</g>
 	</g>
 </g>

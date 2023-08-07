@@ -172,7 +172,7 @@ const Avatar = (() => {
   const [toast,setToast] = useState(false)
   const [itemList,setItemList] = useState([
     {ctgr:'cat',list:[cat0,cat1,cat2]},
-    {ctgr:'dress',list:[dress0,dress1,dress2,dress3,dress4,dress5,dress6,dress7,dress8,dress9,dress10,dress11,dress12,dress13,dress14,dress15,dress16]},
+    {ctgr:'dress',list:[dress0,dress1,dress2,dress3,dress4,dress5,dress6,dress7,dress8,dress9,dress10,dress11,dress12,dress13,dress14]},
     {ctgr:'pants',list:[pants0,pants1,pants2,pants3,pants4,pants5,pants6,pants7
     ,pants8,pants9,pants10,pants11,pants12,pants13,pants14,pants15,pants16]},
     {ctgr:'layered',list:[layered0,layered1,layered2,layered3,layered4,layered5,layered6
@@ -219,7 +219,7 @@ const handleClosed = (event, reason) => {
     [thumbCat0,thumbCat1,thumbCat2],
     [thumbDress0,thumbDress1,thumbDress2,thumbDress3,thumbDress4
     ,thumbDress5,thumbDress6,thumbDress7,thumbDress8,thumbDress9
-    ,thumbDress10,thumbDress11,thumbDress12,thumbDress13,thumbDress14,thumbDress15,thumbDress16],
+    ,thumbDress10,thumbDress11,thumbDress12,thumbDress13,thumbDress14],
     [thumbPants0,thumbPants1,thumbPants2,thumbPants3,thumbPants4,thumbPants5,thumbPants6,thumbPants7
     ,thumbPants8,thumbPants9,thumbPants10,thumbPants11,thumbPants12,thumbPants13,thumbPants14,thumbPants15,thumbPants16],
     [thumbLayered0,thumbLayered1,thumbLayered2,thumbLayered3,thumbLayered4,thumbLayered5,thumbLayered6,thumbLayered7,thumbLayered8
