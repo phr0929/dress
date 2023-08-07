@@ -2,7 +2,9 @@ import './main.css';
 
 import save from './resource/ic_save.svg'
 import reset from './resource/ic_cancel.svg'
-import back from './resource/back.svg'
+import back from './resource/ic_back.svg'
+import max from './resource/ic_max.svg'
+import closed from './resource/closed.svg'
 import thumbCat0 from './resource/thumbnail/cat/0.svg'
 import thumbCat1 from './resource/thumbnail/cat/1.svg'
 import thumbCat2 from './resource/thumbnail/cat/2.svg'
@@ -169,6 +171,8 @@ const Avatar = (() => {
 
   const [ctgr,setCtgr] = useState(0) 
   const [initDialog,setInitDialog] = useState(false)
+  const [backDialog,setBackDialog] = useState(false)
+  const [fullDialog,setFullDialog] = useState(false)
   const [toast,setToast] = useState(false)
   const [itemList,setItemList] = useState([
     {ctgr:'cat',list:[cat0,cat1,cat2]},
@@ -202,18 +206,16 @@ const Avatar = (() => {
     
       return () => clearTimeout(timerId);
 
-},[toast])
+  },[toast])
 
-const handleClosed = (event, reason) => {
+  const handleClosed = (event, reason) => {
 
-  if (reason === 'clickaway') {
-      return;
+    if (reason === 'clickaway') {
+        return;
+    }
+
+    setToast(false)
   }
-
-  setToast(false)
- 
-  
-}
 
   const thumbList = [
     [thumbCat0,thumbCat1,thumbCat2],
@@ -238,8 +240,21 @@ const handleClosed = (event, reason) => {
     let it = JSON.parse(window.localStorage.getItem("myAvatarList")??handleSetInit());
      
     setMyAvatar(it)
- 
+    return(()=>{
+      window.onpopstate = {}
+    })
   },[])
+
+  useEffect(()=>{
+    if(fullDialog){
+        window.history.pushState({ page: 1 }, "title 1", "?page=1")
+    }
+    window.onpopstate = handleOnBack
+  },[fullDialog])
+  const handleOnBack = ()=>{
+    setFullDialog(false)
+  }
+
 
   const handleSave = () => {
     let item = [...myAvatar]  
@@ -263,12 +278,23 @@ const handleClosed = (event, reason) => {
     <div className="mainLayout">
       <div className='avatarLayout'>
         <div className='avatarButtonTop'>
-          <img src={save} alt='' onClick={()=>handleSave()}/>
+          <div onClick={()=>handleSave()}>저장</div>
+          {/* <img src={save} alt='' onClick={()=>handleSave()}/> */}
         </div>
         
         <div className='avatarButtonBottom'> 
-          <img src={reset} alt='' onClick={()=>setInitDialog(true)}/>
+          <div onClick={()=>setBackDialog(true)}>
+            <img src={back} alt='' />
+          </div>
+          <div onClick={()=>setInitDialog(true)}>
+            <img src={reset} alt='' />
+          </div>
         </div>
+        
+        <div className='avatarButtonBottom2'> 
+          <img src={max} alt='' onClick={()=>setFullDialog(true)}/>
+        </div>
+        
         {itemList.map((val,idx)=>
           <img key={idx} className={`${val.ctgr} avatarimg`} src={val.list[myAvatar[idx]]} alt=''/>
         )}
@@ -293,21 +319,40 @@ const handleClosed = (event, reason) => {
         {thumbList[ctgr].map((val,idx)=>
           <div key={idx}>
             <img src={val} onClick={()=>handleCkItem(ctgr,idx)} 
-            className={itemList[ctgr].item===idx?'avatar-selected-on':'avatar-selected-off'} alt=''/>
+            className={myAvatar[ctgr]===idx?'avatar-selected-on':'avatar-selected-off'} alt=''/>
           </div>
         )}
       </div>
 
-      <div style={{display:initDialog?'flex':'none'}} className='dialog' onClick={()=>setInitDialog(false)}>
+      <div style={{display:backDialog?'flex':'none'}} className='dialog' onClick={()=>setBackDialog(false)}>
         <div className='dialogButtonList'>
-          <div onClick={()=>setInitDialog(false)}>코디 계속하기</div>
-          <div onClick={()=>handleBack()}>이전 코디로 돌아가기</div>
-          <div onClick={()=>handleInit()}>코디 초기화 하기</div>
+          <div onClick={()=>handleBack()}>이전 코디로 돌아가기</div> 
+          <div onClick={()=>setBackDialog(false)}>코디 계속하기</div>
         </div>
       </div>
+
+      
+      <div style={{display:initDialog?'flex':'none'}} className='dialog' onClick={()=>setInitDialog(false)}>
+        <div className='dialogButtonList'>
+          <div onClick={()=>handleInit()}>코디 초기화 하기</div>
+          <div onClick={()=>setInitDialog(false)}>코디 계속하기</div>
+        </div>
+      </div>
+
+
       <div style={{display:toast?'flex':'none'}} className='toast' onClick={()=>setToast(false)}>
         <div className='toastBox'>
          코디가 저장되었습니다
+        </div>
+      </div>
+
+
+      <div style={{display:fullDialog?'flex':'none'}} className='fullDialog'>
+        <img className='dialogClosed' src={closed} alt=''  onClick={()=>setFullDialog(false)}/>
+        <div className='fullAvatar'>
+        {itemList.map((val,idx)=>
+          <img key={idx} className={`${val.ctgr} fullAvatarimg`} src={val.list[myAvatar[idx]]} alt=''/>
+        )}
         </div>
       </div>
 

@@ -3,4 +3,8 @@
   width: 100vw;
   height: calc(var(--vh, 1vh) * 100);
   max-height:calc(var(--vh, 1vh) * 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
 }
