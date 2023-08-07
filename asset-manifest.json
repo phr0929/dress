@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/dress/static/css/main.204ae2a1.css",
-    "main.js": "/dress/static/js/main.a3b8a7c9.js",
+    "main.js": "/dress/static/js/main.7ac71ade.js",
     "static/js/787.ea25f203.chunk.js": "/dress/static/js/787.ea25f203.chunk.js",
     "static/media/13.svg": "/dress/static/media/13.908ee2e4c3068ab06668cfd224b39c54.svg",
     "static/media/1.svg": "/dress/static/media/1.90cfba8dd468eaa512cca8c8b6359742.svg",
     "static/media/2.svg": "/dress/static/media/2.f810911c5cd746697dcad3fb2c701cc6.svg",
-    "static/media/14.svg": "/dress/static/media/14.c882b14a80214d986568d01976097966.svg",
-    "static/media/15.svg": "/dress/static/media/15.a54eb7c59005733500e5ff4b14793cb1.svg",
+    "static/media/14.svg": "/dress/static/media/14.984ac8815e37075bbe1843d58623d2dc.svg",
+    "static/media/15.svg": "/dress/static/media/15.9d917cac44e106cb78e768df4a90ed9b.svg",
     "static/media/4.svg": "/dress/static/media/4.8064f44f4645cf4c9a223bfda3afb4d2.svg",
     "static/media/5.svg": "/dress/static/media/5.d13d10498f6ead00b644916ed90d43f4.svg",
     "static/media/16.svg": "/dress/static/media/16.19c88c12c9b7af7e67f4ed00edfc4a99.svg",
     "static/media/0.svg": "/dress/static/media/0.8de84e3c9cf7f2c73f339960c3b9dc65.svg",
     "static/media/3.svg": "/dress/static/media/3.2b573e089224267e32cd48de2425daf0.svg",
+    "static/media/18.svg": "/dress/static/media/18.71a8db52662d9804aaa0d0a694e9dfbd.svg",
+    "static/media/17.svg": "/dress/static/media/17.6bbfa9d5e9d42fdfa366b3ea5a091607.svg",
     "static/media/7.svg": "/dress/static/media/7.56f5a21b3c7ed99878d15fa7222a8b7d.svg",
     "static/media/10.svg": "/dress/static/media/10.863f6d3c34ff4a5ac9a9785d58b525ee.svg",
     "static/media/6.svg": "/dress/static/media/6.0e4e1ba956b55c357ecfee2560216ecb.svg",
@@ -39,11 +41,11 @@
     "static/media/ic_back.svg": "/dress/static/media/ic_back.fc3b44f137f42f6551c37c4af3ebc649.svg",
     "static/media/closed.svg": "/dress/static/media/closed.906b15890f2d8287dbe0f1ed9b94b972.svg",
     "main.204ae2a1.css.map": "/dress/static/css/main.204ae2a1.css.map",
-    "main.a3b8a7c9.js.map": "/dress/static/js/main.a3b8a7c9.js.map",
+    "main.7ac71ade.js.map": "/dress/static/js/main.7ac71ade.js.map",
     "787.ea25f203.chunk.js.map": "/dress/static/js/787.ea25f203.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.204ae2a1.css",
-    "static/js/main.a3b8a7c9.js"
+    "static/js/main.7ac71ade.js"
   ]
 }
