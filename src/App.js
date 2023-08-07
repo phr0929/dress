@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Avatar from './Avatar';
+import Main from './Main';
+import React, {Component, useEffect} from 'react';
+import { HashRouter, Routes ,Route, Router,BrowserRouter} from 'react-router-dom'
 
 function App() {
+
+  const setOneVh = () => {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
+
+  setOneVh()
+
+  useEffect(()=>{
+    setOneVh();
+
+    function onResize(){ 
+        setOneVh();
+    }
+    window.addEventListener('resize',onResize);
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <React.StrictMode>
+        <HashRouter>
+            <Routes>
+              <Route path="/" element={<Main/>} /> 
+              <Route path="/avatar" element={<Avatar/>} /> 
+            </Routes>
+        </HashRouter>
+      </React.StrictMode>
     </div>
   );
 }

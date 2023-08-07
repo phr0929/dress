@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1080 1013.3" style="enable-background:new 0 0 1080 1013.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DDDCDB;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#231815;}
+</style>
+<g id="상의">
+	<g id="롱셔츠">
+		<path class="st0" d="M480.6,673.9c0,0,47.9,27.8,59.5,61.2v181.7l-8.9,19.6c0,0-116.4-4.4-154.6-14.2c0,0,0.7-101.4,6.6-145.8
+			c0,0-51-25.6-63.4-37.4c0,0-2.1-4.9,31.7-56.8c0-0.1,17.7-24.7,29.8-24.6C381.2,657.5,450.5,672.2,480.6,673.9z"/>
+		<line class="st1" x1="383.2" y1="776.3" x2="385.3" y2="734.2"/>
+		<path class="st0" d="M457,671.3l18.8,31c3,5,8.5,7.9,14.3,7.6c8.6-0.4,22.6-0.2,38.6,3.8c0,0-15.8-23.4-33.7-35.2
+			c-4-2.7-8.7-4.2-13.5-4.8L457,671.3z"/>
+		<path class="st0" d="M600.7,673.9c0,0-47.9,27.8-59.5,61.2v181.7l8.9,19.6c0,0,116.4-4.4,154.6-14.2c0,0-0.7-101.4-6.6-145.8
+			c0,0,51-25.6,63.4-37.4c0,0,2.1-4.9-31.7-56.8c0-0.1-17.7-24.7-29.8-24.6C700.1,657.5,630.9,672.2,600.7,673.9z"/>
+		<line class="st1" x1="698.2" y1="776.3" x2="696.1" y2="734.2"/>
+		<path class="st0" d="M624.4,671.3l-18.8,31c-3,5-8.5,7.9-14.3,7.6c-8.6-0.4-22.6-0.2-38.6,3.8c0,0,15.8-23.4,33.7-35.2
+			c4-2.7,8.7-4.2,13.5-4.8L624.4,671.3z"/>
+		<g>
+			<circle class="st2" cx="571.3" cy="766.1" r="6.1"/>
+			<circle class="st2" cx="571.3" cy="806.1" r="6.1"/>
+			<circle class="st2" cx="571.3" cy="846.1" r="6.1"/>
+			<circle class="st2" cx="571.3" cy="886.1" r="6.1"/>
+		</g>
+	</g>
+</g>
+</svg>
