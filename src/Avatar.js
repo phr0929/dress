@@ -44,7 +44,8 @@ import thumbPants13 from './resource/thumbnail/pants/13.svg'
 import thumbPants14 from './resource/thumbnail/pants/14.svg'
 import thumbPants15 from './resource/thumbnail/pants/15.svg'
 import thumbPants16 from './resource/thumbnail/pants/16.svg'
-
+import thumbPants17 from './resource/thumbnail/pants/17.svg'
+import thumbPants18 from './resource/thumbnail/pants/18.svg'
 
 import thumbLayered0 from './resource/thumbnail/layered/0.svg'
 import thumbLayered1 from './resource/thumbnail/layered/1.svg'
@@ -60,6 +61,7 @@ import thumbLayered10 from './resource/thumbnail/layered/10.svg'
 import thumbLayered11 from './resource/thumbnail/layered/11.svg'
 import thumbLayered12 from './resource/thumbnail/layered/12.svg'
 import thumbLayered13 from './resource/thumbnail/layered/13.svg'
+import thumbLayered14 from './resource/thumbnail/layered/14.svg'
 
 import thumbHairitem0 from './resource/thumbnail/hairitem/0.svg'
 import thumbHairitem1 from './resource/thumbnail/hairitem/1.svg'
@@ -131,6 +133,8 @@ import pants13 from './resource/item/pants/13.svg'
 import pants14 from './resource/item/pants/14.svg'
 import pants15 from './resource/item/pants/15.svg'
 import pants16 from './resource/item/pants/16.svg' 
+import pants17 from './resource/item/pants/17.svg'
+import pants18 from './resource/item/pants/18.svg' 
 
 import layered0 from './resource/item/layered/0.svg'
 import layered1 from './resource/item/layered/1.svg'
@@ -146,6 +150,7 @@ import layered10 from './resource/item/layered/10.svg'
 import layered11 from './resource/item/layered/11.svg'
 import layered12 from './resource/item/layered/12.svg'
 import layered13 from './resource/item/layered/13.svg'
+import layered14 from './resource/item/layered/14.svg'
 
 import hairitem0 from './resource/item/hairitem/0.svg'
 import hairitem1 from './resource/item/hairitem/1.svg'
@@ -176,11 +181,11 @@ const Avatar = (() => {
   const [toast,setToast] = useState(false)
   const [itemList,setItemList] = useState([
     {ctgr:'cat',list:[cat0,cat1,cat2]},
-    {ctgr:'dress',list:[dress0,dress1,dress2,dress3,dress4,dress5,dress6,dress7,dress8,dress9,dress10,dress11,dress12,dress13,dress14]},
+    {ctgr:'dress',list:[dress0,dress1,dress2,dress3,dress4,dress5,dress6,dress7,dress8,dress9,dress10,dress11,dress12,dress13,dress14,dress15]},
     {ctgr:'pants',list:[pants0,pants1,pants2,pants3,pants4,pants5,pants6,pants7
-    ,pants8,pants9,pants10,pants11,pants12,pants13,pants14,pants15,pants16]},
+    ,pants8,pants9,pants10,pants11,pants12,pants13,pants14,pants15,pants16,pants17,pants18]},
     {ctgr:'layered',list:[layered0,layered1,layered2,layered3,layered4,layered5,layered6
-     ,layered7,layered8,layered9,layered10,layered11,layered12,layered13]},
+     ,layered7,layered8,layered9,layered10,layered11,layered12,layered13,layered14]},
     // {ctgr:'hairitem',list:[hairitem0,hairitem1,hairitem2,hairitem3,hairitem4,hairitem5,hairitem6]},
     {ctgr:'bag',list:[bag0,bag1,bag2,bag3,bag4,bag7]},  
   ])
@@ -221,11 +226,11 @@ const Avatar = (() => {
     [thumbCat0,thumbCat1,thumbCat2],
     [thumbDress0,thumbDress1,thumbDress2,thumbDress3,thumbDress4
     ,thumbDress5,thumbDress6,thumbDress7,thumbDress8,thumbDress9
-    ,thumbDress10,thumbDress11,thumbDress12,thumbDress13,thumbDress14],
+    ,thumbDress10,thumbDress11,thumbDress12,thumbDress13,thumbDress14,thumbDress15],
     [thumbPants0,thumbPants1,thumbPants2,thumbPants3,thumbPants4,thumbPants5,thumbPants6,thumbPants7
-    ,thumbPants8,thumbPants9,thumbPants10,thumbPants11,thumbPants12,thumbPants13,thumbPants14,thumbPants15,thumbPants16],
+    ,thumbPants8,thumbPants9,thumbPants10,thumbPants11,thumbPants12,thumbPants13,thumbPants14,thumbPants15,thumbPants16,thumbPants17,thumbPants18],
     [thumbLayered0,thumbLayered1,thumbLayered2,thumbLayered3,thumbLayered4,thumbLayered5,thumbLayered6,thumbLayered7,thumbLayered8
-    ,thumbLayered9,thumbLayered10,thumbLayered11,thumbLayered12,thumbLayered13],
+    ,thumbLayered9,thumbLayered10,thumbLayered11,thumbLayered12,thumbLayered13,thumbLayered14],
     // [thumbHairitem0,thumbHairitem1,thumbHairitem2,thumbHairitem3,thumbHairitem4,thumbHairitem5,thumbHairitem6], 
     [thumbBag0,thumbBag1,thumbBag2,thumbBag3,thumbBag4,thumbBag7]
   ]
