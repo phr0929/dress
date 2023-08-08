@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1080 1013.3" style="enable-background:new 0 0 1080 1013.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFD9D9;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#231815;}
+	.st2{fill:#FFFFFF;stroke:#231815;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g id="토끼인형">
+	<path class="st0" d="M806.4,833c0,0,40.9-11,63.7,19.6c22.8,30.6,7.1,53.9-2.6,50c-9.8-3.9,1.5-34.3-20.8-44.6
+		C824.4,847.7,777.1,854.1,806.4,833z"/>
+	<path class="st0" d="M768.6,846.6c0,0-1-55.1-20.6-67.6s-20.4,35.3-8,85.9c0,0-15.1,20.7-15.1,46.5c0,43.6-17.8,46.3-4.4,53.4
+		c13.3,7.1,25.8,6.1,25.8-25.9l22.4,6.2c0,0-4.6,19.6,13.2,28.5c17.8,8.9,13.3-8.1,11.6-33c-1.8-24.9,11.6-48.9,11.6-48.9
+		s5.3,27.6,20.4,49.8c15.1,22.2,28.4,5.4,16.9-20.8S816.7,835,768.6,846.6z"/>
+	<path class="st0" d="M779.6,815c-13.8,4-18.8,21.9-15.1,35.8c1.9,7.4,6.7,14.7,16.6,19.7c28.2,14.2,42.8,10.3,54.2-1.5
+		c5.5-5.7,11.4,0.5,14.5,13.7c3.7,15.7-5.3,32.3,11.6,29.6c16.9-2.7,13.3-53.9-17.5-67.9C844,844.4,828,800.9,779.6,815z"/>
+	<circle class="st1" cx="805.7" cy="840.7" r="3.7"/>
+	<line class="st2" x1="807.6" y1="848.2" x2="809.1" y2="855.8"/>
+	<line class="st2" x1="804.1" y1="848.6" x2="803.2" y2="856.4"/>
+	<line class="st2" x1="805.3" y1="833.8" x2="803.2" y2="826.6"/>
+	<line class="st2" x1="801.7" y1="834.7" x2="797.1" y2="828.8"/>
+	<ellipse class="st3" cx="763.4" cy="906.4" rx="15.6" ry="17.8"/>
+	
+		<ellipse transform="matrix(0.9558 -0.2941 0.2941 0.9558 -208.5428 275.9556)" class="st1" cx="813.3" cy="831.4" rx="3.3" ry="2.5"/>
+	
+		<ellipse transform="matrix(0.1518 -0.9884 0.9884 0.1518 -148.2195 1525.9275)" class="st1" cx="815" cy="849.3" rx="2.5" ry="3.3"/>
+	<line class="st2" x1="806.2" y1="841.8" x2="795" y2="842.7"/>
+	<path class="st2" d="M793.5,838.1c0.4,0.4,1.4,9.2,1.4,9.2"/>
+</g>
+</svg>
