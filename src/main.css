@@ -205,6 +205,11 @@
     z-index: 600;
 }
 
+.hand{
+    position: absolute;
+    z-index: 700;
+}
+
 .fullDialog{
     width: 100vw;
     max-width: 1000px; 

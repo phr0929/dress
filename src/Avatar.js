@@ -47,6 +47,17 @@ import thumbPants16 from './resource/thumbnail/pants/16.svg'
 import thumbPants17 from './resource/thumbnail/pants/17.svg'
 import thumbPants18 from './resource/thumbnail/pants/18.svg'
 
+import thumbHand0 from './resource/thumbnail/hand/0.svg'
+import thumbHand1 from './resource/thumbnail/hand/1.svg'
+import thumbHand2 from './resource/thumbnail/hand/2.svg'
+import thumbHand3 from './resource/thumbnail/hand/3.svg'
+import thumbHand4 from './resource/thumbnail/hand/4.svg'
+import thumbHand5 from './resource/thumbnail/hand/5.svg'
+import thumbHand6 from './resource/thumbnail/hand/6.svg'
+import thumbHand7 from './resource/thumbnail/hand/7.svg'
+import thumbHand8 from './resource/thumbnail/hand/8.svg'
+import thumbHand9 from './resource/thumbnail/hand/9.svg'
+
 import thumbLayered0 from './resource/thumbnail/layered/0.svg'
 import thumbLayered1 from './resource/thumbnail/layered/1.svg'
 import thumbLayered2 from './resource/thumbnail/layered/2.svg'
@@ -81,6 +92,8 @@ import thumbBag5 from './resource/thumbnail/bag/5.svg'
 import thumbBag6 from './resource/thumbnail/bag/6.svg'
 import thumbBag7 from './resource/thumbnail/bag/7.svg'
 
+import ctgrFaceOn from './resource/ctgr/faceOn.svg'
+import ctgrFaceOff from './resource/ctgr/faceOff.svg'
 import ctgrPetOn from './resource/ctgr/petOn.svg'
 import ctgrPetOff from './resource/ctgr/petOff.svg'
 import ctgrDressOn from './resource/ctgr/dressOn.svg'
@@ -136,6 +149,17 @@ import pants16 from './resource/item/pants/16.svg'
 import pants17 from './resource/item/pants/17.svg'
 import pants18 from './resource/item/pants/18.svg' 
 
+import hand0 from './resource/item/hand/0.svg'
+import hand1 from './resource/item/hand/1.svg'
+import hand2 from './resource/item/hand/2.svg'
+import hand3 from './resource/item/hand/3.svg'
+import hand4 from './resource/item/hand/4.svg'
+import hand5 from './resource/item/hand/5.svg'
+import hand6 from './resource/item/hand/6.svg'
+import hand7 from './resource/item/hand/7.svg'
+import hand8 from './resource/item/hand/8.svg'
+import hand9 from './resource/item/hand/9.svg'
+
 import layered0 from './resource/item/layered/0.svg'
 import layered1 from './resource/item/layered/1.svg'
 import layered2 from './resource/item/layered/2.svg'
@@ -187,7 +211,8 @@ const Avatar = (() => {
     {ctgr:'layered',list:[layered0,layered1,layered2,layered3,layered4,layered5,layered6
      ,layered7,layered8,layered9,layered10,layered11,layered12,layered13,layered14]},
     // {ctgr:'hairitem',list:[hairitem0,hairitem1,hairitem2,hairitem3,hairitem4,hairitem5,hairitem6]},
-    {ctgr:'bag',list:[bag0,bag1,bag2,bag3,bag4,bag7]},  
+    {ctgr:'bag',list:[bag0,bag1,bag2,bag3,bag4,bag7]},
+    {ctgr:'hand',list:[hand0,hand1,hand2,hand5,hand8,hand9]}  
   ])
 
   const [myAvatar,setMyAvatar] = useState([])
@@ -232,7 +257,8 @@ const Avatar = (() => {
     [thumbLayered0,thumbLayered1,thumbLayered2,thumbLayered3,thumbLayered4,thumbLayered5,thumbLayered6,thumbLayered7,thumbLayered8
     ,thumbLayered9,thumbLayered10,thumbLayered11,thumbLayered12,thumbLayered13,thumbLayered14],
     // [thumbHairitem0,thumbHairitem1,thumbHairitem2,thumbHairitem3,thumbHairitem4,thumbHairitem5,thumbHairitem6], 
-    [thumbBag0,thumbBag1,thumbBag2,thumbBag3,thumbBag4,thumbBag7]
+    [thumbBag0,thumbBag1,thumbBag2,thumbBag3,thumbBag4,thumbBag7],
+    [thumbHand0,thumbHand1,thumbHand2,thumbHand5,thumbHand8,thumbHand9]
   ]
  
   useEffect(()=>{
@@ -307,7 +333,7 @@ const Avatar = (() => {
 
       <div className='ctgrLayout'>
         <img onClick={()=>{setCtgr(0);}} className={ctgr===0?'ctgrOn':'ctgrOff'} 
-             src={ctgr===0?ctgrPetOn:ctgrPetOff} alt=''/>      
+             src={ctgr===0?ctgrFaceOn:ctgrFaceOff} alt=''/>      
         <img onClick={()=>{setCtgr(1);}} className={ctgr===1?'ctgrOn':'ctgrOff'} 
              src={ctgr===1?ctgrDressOn:ctgrDressOff} alt=''/>        
         <img onClick={()=>setCtgr(2)} className={ctgr===2?'ctgrOn':'ctgrOff'} 
@@ -318,6 +344,8 @@ const Avatar = (() => {
              src={ctgr===4?ctgrHairitemOn:ctgrHairitemOff} alt=''/> */}
         <img onClick={()=>setCtgr(4)} className={ctgr===4?'ctgrOn':'ctgrOff'} 
              src={ctgr===4?ctgrBagOn:ctgrBagOff} alt=''/>
+        <img onClick={()=>setCtgr(5)} className={ctgr===5?'ctgrOn':'ctgrOff'} 
+             src={ctgr===5?ctgrPetOn:ctgrPetOff} alt=''/>
       </div>
 
       <div className='itemLayout'> 
