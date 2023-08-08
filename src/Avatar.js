@@ -212,7 +212,7 @@ const Avatar = (() => {
      ,layered7,layered8,layered9,layered10,layered11,layered12,layered13,layered14]},
     // {ctgr:'hairitem',list:[hairitem0,hairitem1,hairitem2,hairitem3,hairitem4,hairitem5,hairitem6]},
     {ctgr:'bag',list:[bag0,bag1,bag2,bag3,bag4,bag7]},
-    {ctgr:'hand',list:[hand0,hand1,hand2,hand5,hand8,hand9]}  
+    {ctgr:'hand',list:[hand0,hand1,hand2,hand3,hand4,hand5,hand8,hand9]}  
   ])
 
   const [myAvatar,setMyAvatar] = useState([])
@@ -258,7 +258,7 @@ const Avatar = (() => {
     ,thumbLayered9,thumbLayered10,thumbLayered11,thumbLayered12,thumbLayered13,thumbLayered14],
     // [thumbHairitem0,thumbHairitem1,thumbHairitem2,thumbHairitem3,thumbHairitem4,thumbHairitem5,thumbHairitem6], 
     [thumbBag0,thumbBag1,thumbBag2,thumbBag3,thumbBag4,thumbBag7],
-    [thumbHand0,thumbHand1,thumbHand2,thumbHand5,thumbHand8,thumbHand9]
+    [thumbHand0,thumbHand1,thumbHand2,thumbHand3,thumbHand4,thumbHand5,thumbHand8,thumbHand9]
   ]
  
   useEffect(()=>{

@@ -3,28 +3,14 @@
 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#D6CFCE;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:#F4F2F2;}
-	.st2{fill:#231815;}
-	.st3{fill:#898989;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:#231815;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st5{fill:#FFC0C0;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FF5562;stroke:#231815;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FF5562;stroke:#231815;stroke-width:7.9999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:9.9999;}
+	.st3{fill:#FFFFFF;}
 </style>
-<g id="셀카봉">
-	<g>
-		<path class="st0" d="M483.7,344.5l-180.9-52c-6.6-1.9-10.5-8.8-8.6-15.4l28-97.7c1.9-6.6,8.8-10.5,15.4-8.6l180.9,52
-			c6.6,1.9,10.5,8.8,8.6,15.4l-28,97.7C497.2,342.6,490.3,346.4,483.7,344.5z"/>
-		<path class="st1" d="M491.5,280.9L456,270.7c-3.9-1.1-6.1-5.1-5-9l9.6-33.4c1.1-3.9,5.1-6.1,9-5l35.5,10.2c3.9,1.1,6.1,5.1,5,9
-			l-9.6,33.4C499.4,279.8,495.4,282,491.5,280.9z"/>
-		<circle class="st2" cx="472.4" cy="240" r="8.6"/>
-		<circle class="st2" cx="494.2" cy="246.2" r="8.6"/>
-		<circle class="st2" cx="477.9" cy="261.6" r="8.6"/>
-	</g>
-	
-		<rect x="342.5" y="315.8" transform="matrix(0.9611 0.276 -0.276 0.9611 134.3853 -80.6519)" class="st3" width="22.5" height="242.5"/>
-	<path class="st4" d="M302,627l-5.3-1.5c-5.5-1.6-8.6-7.3-7.1-12.7l32.2-112.2c1.6-5.5,7.3-8.6,12.7-7.1l5.3,1.5
-		c5.5,1.6,8.6,7.3,7.1,12.7l-32.2,112.2C313.2,625.4,307.5,628.5,302,627z"/>
-	<path class="st5" d="M400.6,340.2l-36.6-10.5c-7.1-2-11.2-9.4-9.1-16.5l37.6-130.8c2-7.1,9.4-11.2,16.5-9.1l36.6,10.5
-		c7.1,2,11.2,9.4,9.1,16.5l-37.6,130.8C415.1,338.1,407.7,342.2,400.6,340.2z"/>
-</g>
+<path class="st0" d="M275.6,696.2c0,0,16.6-22.6,36.6-143.9c6.5-39.4,4-87.5,51-192.4"/>
+<path class="st1" d="M356.1,354.7c0,0-31.5,14.1-3.2,14.7c0,0,4.2,13.8,13,3.6c0,0,16.9,14.8,4.7-13.8L356.1,354.7z"/>
+<ellipse transform="matrix(0.2141 -0.9768 0.9768 0.2141 87.1466 577.7078)" class="st2" cx="402.6" cy="234.7" rx="131.3" ry="121.3"/>
+<path class="st3" d="M469.4,225.4c0,0,8.4,53.3-32.5,75c0,0,4.3,20.6,22.8,8.4C478.2,296.7,512.1,226.3,469.4,225.4z"/>
+<path class="st3" d="M430.1,321.9c-1.7-7.7-10.6-11.1-17.4-7.2c-4.4,2.5-7.4,6.4-2.1,11.8C418.8,335,432.4,332,430.1,321.9z"/>
 </svg>
